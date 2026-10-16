@@ -1,4 +1,4 @@
-export function normalized(text) {
+function normalized(text) {
   return text
     .normalize("NFC")
     .toLocaleLowerCase("sr-Latn")
@@ -7,13 +7,13 @@ export function normalized(text) {
     .replace(/\p{M}/gu, "");
 }
 
-export function matchesCity(name, query) {
+function matchesCity(name, query) {
   const trimmed = query.trim();
   if (!trimmed) return true;
   return normalized(name).includes(normalized(trimmed));
 }
 
-export function matchesPlace(place, query) {
+function matchesPlace(place, query) {
   const trimmed = query.trim();
   if (!trimmed) return true;
   const folded = normalized(trimmed);
@@ -24,7 +24,7 @@ export function matchesPlace(place, query) {
   return String(place.number).startsWith(trimmed);
 }
 
-export function mapLinkKind(userAgent) {
+function mapLinkKind(userAgent) {
   const ua = userAgent || "";
   if (/Android/i.test(ua)) return "geo";
   if (/iPad|iPhone|iPod|Macintosh/i.test(ua)) return "apple";
@@ -35,7 +35,7 @@ function formatCoord(value) {
   return Number(value).toFixed(6);
 }
 
-export function validCoordinates(place) {
+function validCoordinates(place) {
   const coordinates = place.coordinates;
   if (!coordinates) return null;
   const latitude = Number(coordinates.latitude);
@@ -51,7 +51,7 @@ function googleDirectionsUrl(place, coordinates) {
   return `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
 }
 
-export function directionsUrl(kind, place) {
+function directionsUrl(kind, place) {
   const coordinates = validCoordinates(place);
   if (kind === "apple") {
     const daddr = coordinates
@@ -60,16 +60,12 @@ export function directionsUrl(kind, place) {
     return `https://maps.apple.com/?daddr=${daddr}&dirflg=d`;
   }
   if (kind === "geo") {
-    const fallback = encodeURIComponent(googleDirectionsUrl(place, coordinates));
-    const query = coordinates
-      ? `${formatCoord(coordinates.latitude)},${formatCoord(coordinates.longitude)}`
-      : encodeURIComponent(place.address);
-    return `intent://0,0?q=${query}#Intent;scheme=geo;S.browser_fallback_url=${fallback};end`;
+    return googleDirectionsUrl(place, coordinates);
   }
   return googleDirectionsUrl(place, coordinates);
 }
 
-export function osmEmbedUrl(coordinates) {
+function osmEmbedUrl(coordinates) {
   const latitude = Number(coordinates.latitude);
   const longitude = Number(coordinates.longitude);
   const delta = 0.008;
@@ -79,7 +75,7 @@ export function osmEmbedUrl(coordinates) {
   return `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${formatCoord(latitude)},${formatCoord(longitude)}`;
 }
 
-export function placePageUrl(href, cityName, number) {
+function placePageUrl(href, cityName, number) {
   const url = new URL(href);
   url.searchParams.set("city", cityName);
   url.searchParams.set("number", String(number));
@@ -260,6 +256,7 @@ if (typeof document !== "undefined") {
       return;
     }
     const coordinates = validCoordinates(place);
+    const approximate = Boolean(coordinates && place.coordinates.approximate);
     const mapsHref = escapeHtml(directionsUrl(mapLinkKind(navigator.userAgent), place));
     const mapBlock =
       coordinates && state.mapOpen
@@ -267,6 +264,9 @@ if (typeof document !== "undefined") {
         : coordinates
           ? ""
           : `<p class="note">Nema sačuvanih koordinata. Pin nije prikazan.</p>`;
+    const approximateNote = approximate
+      ? `<p class="note">Tačka je približna. Navigacija je po adresi.</p>`
+      : "";
     const mapAction = coordinates
       ? `<button class="action" type="button" data-map>Prikaži na mapi</button>`
       : `<a class="action" href="${mapsHref}">Prikaži na mapi</a>`;
@@ -285,6 +285,7 @@ if (typeof document !== "undefined") {
         <a class="action primary" href="${mapsHref}">Navigacija</a>
         <button class="action" type="button" data-share>Podeli</button>
       </div>
+      ${approximateNote}
       <div id="mapa">${mapBlock}</div>
       <p class="toast" role="status">${escapeHtml(state.toast)}</p>
     </article>`,
@@ -393,20 +394,22 @@ if (typeof document !== "undefined") {
   async function load() {
     readRoute();
     render();
-    try {
-      const response = await fetch(DATA_URL);
-      if (!response.ok) throw new Error(String(response.status));
-      const data = await response.json();
-      if (!isCatalog(data)) {
-        state.error =
-          "Fajl sa biračkim mestima nije ispravan. Očekuje se objekat sa listom gradova. Svaki grad ima ime i mesta, a svako mesto ima broj, naziv, adresu i koordinate ili prazno polje.";
-      } else {
-        state.catalog = data;
-        state.error = null;
+    let data = null;
+    if (location.protocol !== "file:") {
+      try {
+        const response = await fetch(DATA_URL);
+        if (response.ok) data = await response.json();
+      } catch {
+        data = null;
       }
-    } catch {
+    }
+    if (!data) data = window.POLLING_CATALOG ?? null;
+    if (!isCatalog(data)) {
       state.error =
-        "Spisak biračkih mesta nije učitan. Proveri da fajl data/polling-places.json postoji pored stranice.";
+        "Spisak biračkih mesta nije učitan. Otvori index.html iz foldera docs, ili proveri data/polling-places.json.";
+    } else {
+      state.catalog = data;
+      state.error = null;
     }
     render();
   }

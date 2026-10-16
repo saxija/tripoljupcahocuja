@@ -7,19 +7,31 @@
           "number": 1,
           "name": "Vatrogasni Dom",
           "address": "Čačak, Bulevar Oslobođenja br. 3",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.879674,
+            "longitude": 20.354321,
+            "approximate": true
+          }
         },
         {
           "number": 2,
           "name": "Vatrogasni Dom",
           "address": "Čačak, Bulevar Oslobođenja br. 3",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.879674,
+            "longitude": 20.354321,
+            "approximate": true
+          }
         },
         {
           "number": 3,
           "name": "Sportski Centar Ključ",
           "address": "Čačak, Ključka bb",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.884551,
+            "longitude": 20.366481,
+            "approximate": true
+          }
         },
         {
           "number": 4,
@@ -106,7 +118,11 @@
           "number": 13,
           "name": "Mesna Zajednica Park",
           "address": "Čačak, Mostarska br. 2",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.884134,
+            "longitude": 20.340606,
+            "approximate": true
+          }
         },
         {
           "number": 14,
@@ -157,13 +173,21 @@
           "number": 19,
           "name": "Osnovni Sud Čačak",
           "address": "Čačak, Cara Dušana br. 6",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.895066,
+            "longitude": 20.34599,
+            "approximate": true
+          }
         },
         {
           "number": 20,
           "name": "Dom Učenika Srednjih Škola - Učiteljski Dom",
           "address": "Čačak, Učiteljska br. 8",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.892033,
+            "longitude": 20.343062,
+            "approximate": true
+          }
         },
         {
           "number": 21,
@@ -205,7 +229,11 @@
           "number": 25,
           "name": "Mesna Zajednica Sveti Sava",
           "address": "Čačak, Popović Ljubinke br. 6",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.871167,
+            "longitude": 20.367923,
+            "approximate": true
+          }
         },
         {
           "number": 26,
@@ -220,145 +248,241 @@
           "number": 27,
           "name": "Mesna Zajednica Ljubić Kej",
           "address": "Čačak, Ljubićski Kej br. 15",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.899403,
+            "longitude": 20.351591,
+            "approximate": true
+          }
         },
         {
           "number": 28,
           "name": "Dečiji Vrtić Biseri",
           "address": "Čačak, Njegoševa br. 1",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.902502,
+            "longitude": 20.349681,
+            "approximate": true
+          }
         },
         {
           "number": 29,
           "name": "Dečiji Vrtić Radost",
           "address": "Čačak, Knićaninova br. 30",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.901669,
+            "longitude": 20.347112,
+            "approximate": true
+          }
         },
         {
           "number": 30,
           "name": "Mesna Zajednica Tanasko Rajić",
           "address": "Čačak, Slavka Krupeža br. 2",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.903993,
+            "longitude": 20.352457,
+            "approximate": true
+          }
         },
         {
           "number": 31,
           "name": "Osnovna Škola Tanasko Rajić",
           "address": "Čačak, Milenković Aleksija br. 5",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.905226,
+            "longitude": 20.357025,
+            "approximate": true
+          }
         },
         {
           "number": 32,
           "name": "Mesna Kancelarija Rošci",
           "address": "Rošci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.928499,
+            "longitude": 20.192313,
+            "approximate": true
+          }
         },
         {
           "number": 33,
           "name": "Bivša Osnovna Škola U Caganjama",
           "address": "Rošci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.928499,
+            "longitude": 20.192313,
+            "approximate": true
+          }
         },
         {
           "number": 34,
           "name": "Odeljenje Osnovne Škole Božo Tomić Rošci",
           "address": "Rošci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.928499,
+            "longitude": 20.192313,
+            "approximate": true
+          }
         },
         {
           "number": 35,
           "name": "Bivša Osnovna Škola Bjeliš",
           "address": "Jančići, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.955337,
+            "longitude": 20.151339,
+            "approximate": true
+          }
         },
         {
           "number": 36,
           "name": "Odeljenje Osnovne Škole Stepa Stepanović Miokovci",
           "address": "Miokovci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.958318,
+            "longitude": 20.250421,
+            "approximate": true
+          }
         },
         {
           "number": 37,
           "name": "Osnovna Škola Stepa Stepanović",
           "address": "Gornja Gorevnica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.958081,
+            "longitude": 20.284972,
+            "approximate": true
+          }
         },
         {
           "number": 38,
           "name": "Dom Kulture Milićevci",
           "address": "Milićevci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.960459,
+            "longitude": 20.34609,
+            "approximate": true
+          }
         },
         {
           "number": 39,
           "name": "Osnovna Škola Božo Tomić",
           "address": "Prijevor, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.916619,
+            "longitude": 20.274341,
+            "approximate": true
+          }
         },
         {
           "number": 40,
           "name": "Dom Mesne Zajednice Vidova",
           "address": "Vidova, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.923013,
+            "longitude": 20.231409,
+            "approximate": true
+          }
         },
         {
           "number": 41,
           "name": "Dom Kulture Rakova",
           "address": "Rakova, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.928241,
+            "longitude": 20.363124,
+            "approximate": true
+          }
         },
         {
           "number": 42,
           "name": "Dom Mesne Zajednice Sokolići",
           "address": "Sokolići, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.941448,
+            "longitude": 20.391827,
+            "approximate": true
+          }
         },
         {
           "number": 43,
           "name": "Odeljenje Osnovne Škole Stepa Stepanović Vranići",
           "address": "Vranići, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.937888,
+            "longitude": 20.327076,
+            "approximate": true
+          }
         },
         {
           "number": 44,
           "name": "Odeljenje Osnovne Škole Tanasko Rajić Trbušani",
           "address": "Trbušani, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.925077,
+            "longitude": 20.325245,
+            "approximate": true
+          }
         },
         {
           "number": 45,
           "name": "Odeljenje Osnovne Škole Tanasko Rajić Trbušani",
           "address": "Trbušani, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.925077,
+            "longitude": 20.325245,
+            "approximate": true
+          }
         },
         {
           "number": 46,
           "name": "Dom Mesne Zajednice Lugovi",
           "address": "Čačak, Savić Aleksandra br. 35",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.914148,
+            "longitude": 20.337355,
+            "approximate": true
+          }
         },
         {
           "number": 47,
           "name": "Velika Sala Doma Kulture Ljubić",
           "address": "Ljubić, Paunović Gvozdena br. 32, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.907439,
+            "longitude": 20.36365,
+            "approximate": true
+          }
         },
         {
           "number": 48,
           "name": "Mala Sala Doma Kulture Ljubić",
           "address": "Ljubić, Paunović Gvozdena br. 32, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.907439,
+            "longitude": 20.36365,
+            "approximate": true
+          }
         },
         {
           "number": 49,
           "name": "Stara Osnovna Škola Ljubić",
           "address": "Ljubić, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.907439,
+            "longitude": 20.36365,
+            "approximate": true
+          }
         },
         {
           "number": 50,
           "name": "Dom Kulture Konjevići",
           "address": "Konjevići, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.89928,
+            "longitude": 20.38828,
+            "approximate": true
+          }
         },
         {
           "number": 51,
@@ -373,247 +497,411 @@
           "number": 52,
           "name": "Mesna Zajednica Prislonica",
           "address": "Prislonica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.952222,
+            "longitude": 20.435278,
+            "approximate": true
+          }
         },
         {
           "number": 53,
           "name": "Osnovna Škola 22. Decembar",
           "address": "Donja Trepča, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.903242,
+            "longitude": 20.459633,
+            "approximate": true
+          }
         },
         {
           "number": 54,
           "name": "Dom Kulture - Mesna Zajednica Gornja Trepča",
           "address": "Gornja Trepča, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.949357,
+            "longitude": 20.484617,
+            "approximate": true
+          }
         },
         {
           "number": 55,
           "name": "Dom Mesne Zajednice Baluga (ljubićska)",
           "address": "Baluga (ljubićska), Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.894212,
+            "longitude": 20.423284,
+            "approximate": true
+          }
         },
         {
           "number": 56,
           "name": "Odeljenje Osnovne Škole 22. Decembar Stančići",
           "address": "Stančići, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.880325,
+            "longitude": 20.44148,
+            "approximate": true
+          }
         },
         {
           "number": 57,
           "name": "Dom Kulture Mojsinje",
           "address": "Mojsinje, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.885491,
+            "longitude": 20.471907,
+            "approximate": true
+          }
         },
         {
           "number": 58,
           "name": "Osnovna Škola Grabac (odeljenje Osnovne Škole Tatomir Anđelić)",
           "address": "Ostra, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.920153,
+            "longitude": 20.513406,
+            "approximate": true
+          }
         },
         {
           "number": 59,
           "name": "Bivša Osnovna Škola Dobrinje",
           "address": "Ostra, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.920153,
+            "longitude": 20.513406,
+            "approximate": true
+          }
         },
         {
           "number": 60,
           "name": "Bivša Osnovna Škola Solinac",
           "address": "Ostra, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.920153,
+            "longitude": 20.513406,
+            "approximate": true
+          }
         },
         {
           "number": 61,
           "name": "Poslovna Prostorija Slobodana Katanića",
           "address": "Bečanj, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.869498,
+            "longitude": 20.562158,
+            "approximate": true
+          }
         },
         {
           "number": 62,
           "name": "Odeljenje Osnovne Škole Tatomir Anđelić Bečanj",
           "address": "Bečanj, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.869498,
+            "longitude": 20.562158,
+            "approximate": true
+          }
         },
         {
           "number": 63,
           "name": "Marinkovića Škola",
           "address": "Bečanj, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.869498,
+            "longitude": 20.562158,
+            "approximate": true
+          }
         },
         {
           "number": 64,
           "name": "Odeljenje Osnovne Škole Tatomir Anđelić Vujetinci",
           "address": "Vujetinci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.937615,
+            "longitude": 20.550998,
+            "approximate": true
+          }
         },
         {
           "number": 65,
           "name": "Bivša Osnovna Škola Đokići",
           "address": "Bresnica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.87398,
+            "longitude": 20.595818,
+            "approximate": true
+          }
         },
         {
           "number": 66,
           "name": "Marinkovića Škola",
           "address": "Bečanj, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.869498,
+            "longitude": 20.562158,
+            "approximate": true
+          }
         },
         {
           "number": 67,
           "name": "Mesna Zajednica Bresnica",
           "address": "Bresnica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.87398,
+            "longitude": 20.595818,
+            "approximate": true
+          }
         },
         {
           "number": 68,
           "name": "Dom Kulture Mrčajevci",
           "address": "Mrčajevci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.867055,
+            "longitude": 20.529671,
+            "approximate": true
+          }
         },
         {
           "number": 69,
           "name": "Mesna Zajednica Mrčajevci",
           "address": "Mrčajevci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.867055,
+            "longitude": 20.529671,
+            "approximate": true
+          }
         },
         {
           "number": 70,
           "name": "Odeljenje Osnovne Škole Tatomir Anđelić Katrga",
           "address": "Katrga, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.830191,
+            "longitude": 20.555116,
+            "approximate": true
+          }
         },
         {
           "number": 71,
           "name": "Dom Kulture Donja Gorevnica",
           "address": "Donja Gorevnica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.875206,
+            "longitude": 20.500759,
+            "approximate": true
+          }
         },
         {
           "number": 72,
           "name": "Dom Kulture Goričani",
           "address": "Goričani, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.79523,
+            "longitude": 20.531902,
+            "approximate": true
+          }
         },
         {
           "number": 73,
           "name": "Odeljenje Osnovne Škole Branislav Petrović Kačulice",
           "address": "Kačulice, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.773201,
+            "longitude": 20.487056,
+            "approximate": true
+          }
         },
         {
           "number": 74,
           "name": "Osnovna Škola Branislav Petrović",
           "address": "Slatina, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.811533,
+            "longitude": 20.474849,
+            "approximate": true
+          }
         },
         {
           "number": 75,
           "name": "Dom Kulture Žaočani",
           "address": "Žaočani, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.783674,
+            "longitude": 20.462766,
+            "approximate": true
+          }
         },
         {
           "number": 76,
           "name": "Dom Kulture Premeća",
           "address": "Premeća, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.777229,
+            "longitude": 20.428905,
+            "approximate": true
+          }
         },
         {
           "number": 77,
           "name": "Dom Kulture Petnica",
           "address": "Petnica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.765274,
+            "longitude": 20.446464,
+            "approximate": true
+          }
         },
         {
           "number": 78,
           "name": "Odeljenje Osnovne Škole Branislav Petrović Brezovica",
           "address": "Brezovica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.739864,
+            "longitude": 20.413692,
+            "approximate": true
+          }
         },
         {
           "number": 79,
           "name": "Dom Kulture Lipnica",
           "address": "Lipnica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.82301,
+            "longitude": 20.459504,
+            "approximate": true
+          }
         },
         {
           "number": 80,
           "name": "Zadružni Dom Rajac",
           "address": "Rajac, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.797212,
+            "longitude": 20.422983,
+            "approximate": true
+          }
         },
         {
           "number": 81,
           "name": "Osnovna Škola Branislav Petrović",
           "address": "Slatina, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.811533,
+            "longitude": 20.474849,
+            "approximate": true
+          }
         },
         {
           "number": 82,
           "name": "Dom Mesne Zajednice Kukići",
           "address": "Kukići, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.827375,
+            "longitude": 20.467701,
+            "approximate": true
+          }
         },
         {
           "number": 83,
           "name": "Narodni Dom U Porti",
           "address": "Zablaće, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.843224,
+            "longitude": 20.447961,
+            "approximate": true
+          }
         },
         {
           "number": 84,
           "name": "Spomen Dom Vapa",
           "address": "Vapa, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.857033,
+            "longitude": 20.437142,
+            "approximate": true
+          }
         },
         {
           "number": 85,
           "name": "Mesna Zajednica Ježevica",
           "address": "Ježevica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.824784,
+            "longitude": 20.419506,
+            "approximate": true
+          }
         },
         {
           "number": 86,
           "name": "Bivša Osnovna Škola Donja Ježevica",
           "address": "Ježevica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.824784,
+            "longitude": 20.419506,
+            "approximate": true
+          }
         },
         {
           "number": 87,
           "name": "Zadružni Dom Banjica",
           "address": "Banjica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.820794,
+            "longitude": 20.382659,
+            "approximate": true
+          }
         },
         {
           "number": 88,
           "name": "Odeljenje Osnovne Škole Vladislav Petković - Dis Viljuša",
           "address": "Viljuša, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.85367,
+            "longitude": 20.405903,
+            "approximate": true
+          }
         },
         {
           "number": 89,
           "name": "Dom Mesne Zajednice Baluga (trnavska)",
           "address": "Baluga (trnavska), Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.861453,
+            "longitude": 20.424442,
+            "approximate": true
+          }
         },
         {
           "number": 90,
           "name": "Osnovna Škola Sveti Đakon Avakum Trnava",
           "address": "Trnava, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.857647,
+            "longitude": 20.391097,
+            "approximate": true
+          }
         },
         {
           "number": 91,
           "name": "Mesna Zajednica Trnava",
           "address": "Trnava, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.857647,
+            "longitude": 20.391097,
+            "approximate": true
+          }
         },
         {
           "number": 92,
           "name": "Spomen Dom Kulinovci",
           "address": "Kulinovci, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.862381,
+            "longitude": 20.349319,
+            "approximate": true
+          }
         },
         {
           "number": 93,
@@ -637,61 +925,101 @@
           "number": 95,
           "name": "Odeljenje Osnovne Škole Sveti Sava Gornja Atenica",
           "address": "Gornja Atenica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.852969,
+            "longitude": 20.342309,
+            "approximate": true
+          }
         },
         {
           "number": 96,
           "name": "Dom Mesne Zajednice Loznica",
           "address": "Loznica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.86698,
+            "longitude": 20.331898,
+            "approximate": true
+          }
         },
         {
           "number": 97,
           "name": "Mesna Zajednica Jezdina (stara Jezdinska Škola)",
           "address": "Jezdina, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.857165,
+            "longitude": 20.291581,
+            "approximate": true
+          }
         },
         {
           "number": 98,
           "name": "Mesna Zajednica Pridvorica (stara Jezdinska Škola)",
           "address": "Pridvorica, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.874649,
+            "longitude": 20.293515,
+            "approximate": true
+          }
         },
         {
           "number": 99,
           "name": "Mesna Zajednica Beljina",
           "address": "Beljina, Bulevar Oslobodilaca Čačka br. 7, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.884648,
+            "longitude": 20.318052,
+            "approximate": true
+          }
         },
         {
           "number": 100,
           "name": "Mesna Zajednica Parmenac",
           "address": "Parmenac, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.895998,
+            "longitude": 20.290992,
+            "approximate": true
+          }
         },
         {
           "number": 101,
           "name": "Mesna Zajednica Riđage",
           "address": "Riđage, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.892326,
+            "longitude": 20.272522,
+            "approximate": true
+          }
         },
         {
           "number": 102,
           "name": "Odeljenje Osnovne Škole Ratko Mitrović Pakovraće",
           "address": "Pakovraće, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.899284,
+            "longitude": 20.260634,
+            "approximate": true
+          }
         },
         {
           "number": 103,
           "name": "Mesna Zajednica Međuvršje",
           "address": "Međuvršje, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.922067,
+            "longitude": 20.223079,
+            "approximate": true
+          }
         },
         {
           "number": 104,
           "name": "Odeljenje Osnovne Škole Ratko Mitrović Ovčar Banja",
           "address": "Ovčar Banja, Čačak",
-          "coordinates": null
+          "coordinates": {
+            "latitude": 43.898056,
+            "longitude": 20.185833,
+            "approximate": true
+          }
         }
       ]
     }
